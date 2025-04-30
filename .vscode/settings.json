@@ -1,0 +1,76 @@
+{
+    "[typescript]": {
+        "editor.autoIndent": "advanced",
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.autoIndent": "advanced",
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.autoIndent": "advanced",
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+    },
+    "typescript.perferences.quoteStyle": "single",
+    "javascript.perferences.quoteStyle": "single",
+    "editor.autoIndent": "advanced",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "cucumberautocomplete.steps": [
+        "tests/specs"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.strictGherkinValidation": true,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.stepsInvariants": true,
+    "cucumberautocomplete.customParameters": [
+        {
+            "customParameters": "{ab}",
+            "value": "{a|b}"
+        }
+    ],
+    "cucumberautocomplete.skipDocStringsFormat": true,
+    "cucumberautocomplete.formatConfOverride": {
+        "And": 3,
+        "But": "relative"
+    },
+    "cucumberautocomplete.onTypeFormat": true,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "cucumberautocomplete.gherkinDefinitionPart": "(Given/When/Then)\\(",
+    "[typescriptreact]": {
+        "editor.defaultColorDecorators": "always"
+    },
+    "editor.formatOnSave": true,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/package.json"
+            ],
+            "url": "https://json.schemastore.org/package",
+            "schema": true
+        }
+    ],
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "line",
+        "foreground": "#ffffff",
+        "background": "#ff5a5a",
+        "opacity": 80,
+        "iconColour": "#2684f6"
+    },
+    "cSpell.words": []
+}

@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "inputs": [],
+    "configurations": [
+        "name": "run all",
+        "args": [
+            "playwrigth.config.ts"
+        ],
+        "cwd": "${workspaceFolder}",
+        "autoAttachChildProcess": true,
+        "program": "${workspaceFolder}/node_modules/@playwright/cli.js",
+        "console": "integratedTerminal"
+    ]
+}
